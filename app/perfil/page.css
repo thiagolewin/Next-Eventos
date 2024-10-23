@@ -1,64 +1,60 @@
-
-/* CSS mejorado */
 body {
-    background-color: #f0f0f0;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    margin: 0;
+  background-color: #d3d3d3; /* Cambié el color de fondo */
+  font-family: 'Verdana', sans-serif; /* Cambié la fuente */
+  color: #333; /* Cambié el color del texto */
+  margin: 5px; /* Ajusté el margen */
+  padding: 30px; /* Ajusté el padding */
+}
 
-    padding: 20px;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-    display: flex;
-  }
-  
-  .container:hover {
-    transform: translateY(-5px);
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin: 10px 0;
-    color: #007bff;
-  }
-  
-  h2 {
-    font-size: 20px;
-    margin: 10px 0;
-    color: #555;
-  }
-  
-  h3, h4 {
-    font-size: 16px;
-    margin: 5px 0;
-    color: #777;
-  }
-  
-  button {
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 12px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s, transform 0.2s;
-    width: 100%;
-  }
-  
-  button:hover {
-    background: #0056b3;
-  }
-  
-  button:active {
-    transform: scale(0.95);
-  }
-  
+.container {
+  max-width: 700px; /* Aumenté el tamaño del contenedor */
+  margin: 10px auto; /* Ajusté el margen */
+  padding: 40px; /* Cambié el padding */
+  background-color: #f9f9f9; /* Cambié el color de fondo del contenedor */
+  border-radius: 15px; /* Aumenté el radio de las esquinas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Cambié la sombra */
+  transition: transform 0.3s ease-in-out; /* Ajusté la duración de la animación */
+  display: block; /* Cambié a bloque */
+}
+
+.container:hover {
+  transform: translateY(-8px); /* Aumenté el desplazamiento */
+}
+
+h1 {
+  font-size: 28px; /* Aumenté el tamaño de la fuente */
+  margin: 20px 0; /* Cambié el margen */
+  color: #ff4500; /* Cambié el color */
+}
+
+h2 {
+  font-size: 24px; /* Aumenté el tamaño de la fuente */
+  margin: 15px 0; /* Cambié el margen */
+  color: #444; /* Cambié el color */
+}
+
+h3, h4 {
+  font-size: 20px; /* Aumenté el tamaño de la fuente */
+  margin: 10px 0; /* Cambié el margen */
+  color: #666; /* Cambié el color */
+}
+
+button {
+  background-color: #ff4500; /* Cambié el color de fondo del botón */
+  color: #fff; /* Cambié el color del texto */
+  border: none;
+  border-radius: 12px; /* Aumenté el radio de las esquinas */
+  padding: 16px 28px; /* Aumenté el padding */
+  cursor: pointer;
+  font-size: 20px; /* Aumenté el tamaño de la fuente */
+  transition: background-color 0.2s, transform 0.2s; /* Ajusté la duración de la transición */
+  width: 100%;
+}
+
+button:hover {
+  background-color: #e63900; /* Cambié el color en hover */
+}
+
+button:active {
+  transform: scale(0.9); /* Ajusté el tamaño en estado activo */
+}

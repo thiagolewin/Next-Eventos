@@ -1,63 +1,57 @@
-/* CSS mejorado */
 body {
-    background-color: #f0f0f0;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    margin: 0;
+  background-color: #e0e0e0; /* Cambié el color de fondo */
+  font-family: 'Courier New', monospace; /* Cambié la fuente */
+  color: #111; /* Cambié el color del texto */
+  margin: 10px; /* Ajusté el margen */
+  padding: 15px; /* Ajusté el padding */
+}
 
-    padding: 20px;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 30px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-    display: flex;
-  }
-  
-  .container:hover {
-    transform: translateY(-5px);
-  }
-  
-  h1 {
-    font-size: 24px;
-    margin: 10px 0;
-    color: #007bff;
-  }
-  
-  h2 {
-    font-size: 20px;
-    margin: 10px 0;
-    color: #555;
-  }
-  
-  h3, h4 {
-    font-size: 16px;
-    margin: 5px 0;
-    color: #777;
-  }
-  
-  button {
-    background: #007bff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    padding: 12px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s, transform 0.2s;
-    width: 100%;
-  }
-  
-  button:hover {
-    background: #0056b3;
-  }
-  
-  button:active {
-    transform: scale(0.95);
-  }
-  
+.container {
+  max-width: 700px; /* Aumenté el tamaño del contenedor */
+  margin: 20px; /* Cambié el margen */
+  padding: 50px; /* Aumenté el padding */
+  background: #fafafa; /* Cambié el fondo del contenedor */
+  border-radius: 20px; /* Cambié la curvatura de las esquinas */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Cambié la sombra */
+  transition: transform 0.5s; /* Ajusté la duración de la transición */
+  display: block; /* Cambié a bloque en lugar de flex */
+}
+
+.container:hover {
+  transform: translateY(-10px); /* Ajusté la distancia de la animación */
+}
+
+h1 {
+  font-size: 28px; /* Cambié el tamaño de la fuente */
+  margin: 20px 0; /* Ajusté el margen */
+  color: #ff4500; /* Cambié el color del título */
+}
+
+h2 {
+  font-size: 24px; /* Aumenté el tamaño de la fuente */
+  margin: 15px 0; /* Cambié el margen */
+  color: #333; /* Cambié el color */
+}
+
+h3, h4 {
+  font-size: 18px; /* Cambié el tamaño */
+  margin: 10px 0; /* Cambié el margen */
+  color: #555; /* Cambié el color */
+}
+
+button {
+  background: #ff4500; /* Cambié el color del botón */
+  color: #000; /* Cambié el color del texto */
+  border-radius: 16px; /* Cambié el radio de las esquinas */
+  padding: 10px 25px; /* Ajusté el padding */
+  font-size: 18px; /* Aumenté el tamaño de la fuente */
+  transition: background 0.1s, transform 0.1s; /* Ajusté la duración de las transiciones */
+}
+
+button:hover {
+  background: #ff6347; /* Cambié el color al hacer hover */
+}
+
+button:active {
+  transform: scale(0.9); /* Cambié el efecto al hacer clic */
+}
